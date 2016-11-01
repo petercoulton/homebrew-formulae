@@ -3,7 +3,7 @@ class Laptop < Formula
   homepage "https://github.com/petercoulton/laptop"
   url "https://github.com/petercoulton/laptop/archive/0.0.1.tar.gz"
   version "0.0.1"
-  sha256 "5d1930a9033a4d6a178cbfc9187820df44337437bc950e9347a505730eb6349c"
+  sha256 "8602ade98e62e3b183f5625b3b44a3aa936c5d4f235d4331188dcf0c89a00602"
 
   def install
   	prefix.install 'bin', 'lib'
