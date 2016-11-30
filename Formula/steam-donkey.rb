@@ -3,9 +3,8 @@ class SteamDonkey < Formula
   homepage "https://github.com/petercoulton/steam-donkey"
   url "https://github.com/petercoulton/steam-donkey/archive/0.0.4.tar.gz"
   version "0.0.4"
-  sha256 "d87b9d637304eeccdd45562eb3f52671b74fb899bddf1120c87a9eb73d53924b"
+  sha256 "2b3a73c65c588e8a19f256afea4c574e22d41e7f1169a17edb751fe005b65e2d"
 
-  depends_on :bash => "3"
   depends_on :ruby => "2.3"
 
   resource 'aws-sdk' do
